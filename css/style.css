@@ -1,0 +1,35 @@
+/* *****HEADER */
+
+#header {
+    height: 70px;
+}
+
+.logo-container {
+    height: 100%;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+ul {
+    margin: 0;
+}
+
+.form-control {
+    font-size: 0.75rem;
+}
+
+.input-group-text {
+    font-size: 0.75rem;
+    background-color: #E5E5E5;
+}
+
+#header .form-control {
+    padding-left: 0;
+    background-color: #E5E5E5;
+}
+
+.fa-ellipsis-vertical {
+    cursor: pointer;
+}
