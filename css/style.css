@@ -33,3 +33,86 @@ ul {
 .fa-ellipsis-vertical {
     cursor: pointer;
 }
+
+/* ****MAIN */
+
+.main_container {
+    height: calc(100vh - 70px);
+}
+
+/* ASIDE */
+
+#aside {
+    width: 130px;
+    height: 100%;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #10283D;
+}
+
+.side_bar {
+    height: 100%;
+}
+
+.side_bar a {
+    text-decoration: none;
+}
+
+.admin {
+    margin-top: auto;
+}
+
+/* MAIN CONTENT */
+
+.main_content {
+    width: calc(100% - 130px);
+    height: 100%;
+    overflow: auto;
+}
+
+/* STUDENT BAR */
+
+.student_bar {
+    width: 100%;
+    background-color: #1B72E8;
+}
+
+.student_bar .plus {
+    width: 40px;
+    aspect-ratio: 1;
+}
+
+.btn_student {
+    font-size: 12px;
+    background-color: #165BBA;
+}
+
+.student_bar .arrow {
+    font-size: 12px;
+}
+
+/* INFO */
+
+.info {
+    width: 100%;
+    height: calc(100% - 100px);
+}
+
+.column {
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .side_bar a {
+        display: none;
+    }
+
+    #aside {
+        width: 70px;
+    }
+
+    .main_content {
+        width: calc(100% - 70px);
+    }
+}
