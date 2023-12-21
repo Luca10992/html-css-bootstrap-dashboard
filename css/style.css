@@ -65,6 +65,11 @@ ul {
     margin-top: auto;
 }
 
+.side_bar div:hover {
+    padding: 5px 32px;
+    background-color: rgba(255, 255, 255, 0.359);
+}
+
 /* MAIN CONTENT */
 
 .main_content {
@@ -81,6 +86,7 @@ ul {
 }
 
 .student_bar .plus {
+    color: white;
     width: 40px;
     aspect-ratio: 1;
 }
@@ -91,6 +97,26 @@ ul {
 }
 
 .student_bar .arrow {
+    font-size: 12px;
+}
+
+.offcanvas {
+    width: calc(100% - 70px) !important;
+}
+
+.offcanvas .col {
+    padding: 0;
+}
+
+.offcanvas .form-select {
+    font-size: 0.75rem;
+}
+
+.offcanvas .btn {
+    font-size: 12px;
+}
+
+.offcanvas .form-check-label {
     font-size: 12px;
 }
 
@@ -107,6 +133,10 @@ ul {
 
 .info .btn {
     font-size: 10px;
+}
+
+.info .badge {
+    font-size: 9px;
 }
 
 .column h2 {
@@ -167,6 +197,11 @@ ul {
     border-radius: 0 0 5px 5px;
 }
 
+@media screen and (min-width: 768px) {
+    .offcanvas {
+        width: 70% !important;
+    }
+}
 
 
 @media screen and (min-width: 992px) {
@@ -189,6 +224,10 @@ ul {
 
     .table .name {
         padding-right: 8rem;
+    }
+
+    .offcanvas {
+        width: 50% !important;
     }
 }
 
