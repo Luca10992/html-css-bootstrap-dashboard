@@ -135,10 +135,12 @@ ul {
 .code {
     display: inline-block;
     width: 32px;
-    border-radius: 50%;
     aspect-ratio: 1;
-    color: white;
-    background-color: #F26551;
+}
+
+.code img {
+    width: 100%;
+    border-radius: 50%;
 }
 
 .table .btn.btn-outline-secondary {
@@ -152,6 +154,20 @@ ul {
 .accordion-button:focus {
     box-shadow: none;
 }
+
+.card img {
+    width: 100%;
+}
+
+.card.inside-top {
+    border-radius: 5px 5px 0 0;
+}
+
+.card.inside-bottom {
+    border-radius: 0 0 5px 5px;
+}
+
+
 
 @media screen and (min-width: 992px) {
 
